@@ -1,0 +1,10 @@
+.item{
+    width: 100%;
+}
+.item p{
+    /* font-weight: 600; */
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    padding: 5px 0;
+}
