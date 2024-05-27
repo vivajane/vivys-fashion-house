@@ -25,18 +25,18 @@ const Footer = () => {
       <div className="allproducts">
         <h3>Products</h3>
         <ul>
-          <li><NavLink to="kids">Kids</NavLink></li>
-          <li><NavLink to="rtw">RTW</NavLink></li>
-          <li><NavLink to="bespoke">Bespokes</NavLink></li>
+          <li><NavLink to="/kid">Kids</NavLink></li>
+          <li><NavLink to="/rtw">RTW</NavLink></li>
+          <li><NavLink to="/bespoke">Bespokes</NavLink></li>
           
         </ul>
       </div>
       <div className="company">
         <h3>Company</h3>
         <ul>
-          <li><NavLink to="about us">About Us</NavLink></li>
-          <li><NavLink to="contact">About Us</NavLink></li>
-          <li><NavLink to="feedback">About Us</NavLink></li>
+          <li><NavLink to="aboutus">About Us</NavLink></li>
+          <li><NavLink to="contact">Contact</NavLink></li>
+          <li><NavLink to="feedback">Feedback</NavLink></li>
           
         </ul>
       </div>

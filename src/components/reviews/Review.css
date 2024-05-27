@@ -48,9 +48,23 @@
     
    
 }
+.review-btn{
+    padding: 10px 14px;
+    /* background-color: bisque; */
+    background-color: rgb(132, 131, 121);
+    border-color: transparent;
+    border-radius: 6px;
+    font-size: larger;
+    margin-top: 5px;
+}
+.review-btn:hover{
+    background-color: black;
+    color: antiquewhite;
+
+}
 .reviews{
     display: flex;
-    width: calc(350px * 12);
+    width: calc(350px * 6);
     animation: scroll 40s linear infinite;
 }
 .reviews:hover{
@@ -75,7 +89,7 @@
         transform: translateX(0);
     }
     100%{
-        transform: translateX(calc(-250px * 6));
+        transform: translateX(calc(-250px * 4));
 
     }
 }
@@ -98,4 +112,17 @@
     right:0;
     top: 0;
     transform: rotateZ(180deg);
+}
+form{
+    width: 50%;
+    margin: 10px auto;
+    text-align: center;
+    /* background-color: rgb(74, 56, 56); */
+}
+form input, textarea{
+    padding: 10px;
+    margin-top: 15px;
+    background-color: rgb(132, 131, 121);
+    color: aliceblue;
+    width: 50%;
 }

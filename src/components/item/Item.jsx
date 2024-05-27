@@ -2,12 +2,12 @@ import "./Item.css"
 import React from 'react';
 // import naira from "../../images/naira.png"
 
-const Item = ({product}) => {
+const Item = ({image, name, price}) => {
   return (
     <div className="item">
-        <img src={product.image} alt="" />
-        <p>{product.name}</p>
-        <p>{product.price}</p>
+        <img src={image} alt="" />
+        <p>{name}</p>
+        <p>{price}</p>
     </div>
   )
 }

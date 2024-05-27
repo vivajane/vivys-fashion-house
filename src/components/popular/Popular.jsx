@@ -17,7 +17,7 @@ const Popular = () => {
             {
                 products.map((product, i)=>{
                     console.log(product)
-                    return <Item key={product.id} product={product}/>
+                    return <Item key={product.id} name={product.name} id={product.id} price={product.price} image={product.image}/>
 
                 })
             }
