@@ -70,7 +70,7 @@ const Header = () => {
         </ul>
 
         <div className={newShowmenu ? "login-btn active" :"login-btn"}>
-          <NavLink to="login"><Button variant="primary">Login</Button></NavLink>
+          <NavLink to="login"><Button onClick={window.scrollTo(0,0)}  variant="primary">Login</Button></NavLink>
           <div>
            <NavLink to="cart"> <FaShoppingCart /></NavLink>
           </div>

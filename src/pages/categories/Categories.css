@@ -1,16 +1,42 @@
 .category-container{
+    margin: 80px auto;
    
 }
 .category-product{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     width: 90%;
-    margin: 30px auto;
+    margin: 20px auto;
+    
     gap: 20px;
     
 }
+.show-more{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px auto;
+    width: 90%;
+}
+
+.image{
+    display: flex;
+    align-items: center;
+}
 .category-item{
     padding: 10px;
+}
+.explore-more{
+    width: 170px;
+    margin: 10px auto;
+    font-size: 20px;
+    background-color: rgb(12, 11, 10);
+    color: aliceblue;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border-radius: 19px;
+    font-weight: 500px;
 }
 .category-item h3{
     text-align: center;

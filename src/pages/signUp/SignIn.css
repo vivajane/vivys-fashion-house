@@ -1,0 +1,40 @@
+.div-form{
+    width:70%;
+    padding-top: 100px;
+    margin: 70px auto;
+    /* height: 500px; */
+}
+.form input{
+    width: 90%;
+    border: transparent;
+    border: 1px solid black;
+    background-color: transparent;
+    padding: 5px auto;
+    /* background-color: black; */
+}
+.sign-up{
+    text-align: center;
+    margin: 10px auto;
+}
+.form{
+    background-color: rgb(237, 212, 178);
+}
+.fullname, .password, .btn{
+    padding: 20px 0;
+}
+.btn{
+    margin: 20px auto;
+    
+}
+button[variant= "sign"]{
+    padding: 15px 35px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(216, 183, 140);
+    color: black;
+
+}
+button[variant= "sign"]:hover{
+    background-color: black;
+    color: white;
+}

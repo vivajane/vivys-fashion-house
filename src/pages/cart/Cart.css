@@ -1,0 +1,15 @@
+.cart{
+    margin: 77px auto;
+    padding: 20px 60px;
+    
+}
+.heading-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px auto
+}
+.cart > .hr{
+    padding: 50px auto;
+    border: 1px solid black;
+}

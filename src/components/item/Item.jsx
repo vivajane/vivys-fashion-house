@@ -1,13 +1,14 @@
 import "./Item.css"
 import React from 'react';
-// import naira from "../../images/naira.png"
+import { NavLink } from "react-router-dom";
 
-const Item = ({image, name, price}) => {
+const Item = (props) => {
   return (
     <div className="item">
-        <img src={image} alt="" />
-        <p>{name}</p>
-        <p>{price}</p>
+      <NavLink to= {`/product/${props.id}`}><img onClick={window.scrollTo(0,0)} src={props.image} alt="" /></NavLink>
+        
+        <p>{props.name}</p>
+        <p>{props.price}</p>
     </div>
   )
 }

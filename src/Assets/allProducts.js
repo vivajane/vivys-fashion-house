@@ -111,18 +111,20 @@ const allProducts = [
     },
     {
         id:9,
-        image: nine,
+        image: forty,
         category: "Ready-to-wear",
-        name:"Dress_Purity", 
+        name:"Dress_Nneoma", 
         price: "NGN45,000"
     },
+  
     {
         id:10,
-        image: ten,
+        image: thirtyfour,
         category: "Ready-to-wear",
-        name:"Dress_Royal", 
-        price: "NGN40,000"
+        name:"Georgeous", 
+        price: "NGN30,000"
     },
+  
     // {
     //     id:11,
     //     image: eleven,
@@ -186,13 +188,7 @@ const allProducts = [
         name:"Dress_Diamond", 
         price: "NGN25,000"
     },
-    // {
-    //     id:21,
-    //     image: twentyone,
-    //     category: "Bespoke",
-    //     name:"Dress_Achalugo", 
-    //     price: "NGN45,000"
-    // },
+   
     {
         id:22,
         image: twentytwo,
@@ -223,9 +219,9 @@ const allProducts = [
     },
     {
         id:26,
-        image: twentysix,
+        image: thirtyeightt,
         category: "Ready-to-wear",
-        name:"Dress_Cilia", 
+        name:"Dress_Onyibo", 
         price: "NGN25,000"
     },
     {
@@ -279,11 +275,12 @@ const allProducts = [
     },
     {
         id:34,
-        image: thirtyfour,
+        image: ten,
         category: "Ready-to-wear",
-        name:"Georgeous", 
-        price: "NGN30,000"
+        name:"Dress_Royal", 
+        price: "NGN40,000"
     },
+  
     {
         id:35,
         image: thirtyfive,
@@ -342,18 +339,21 @@ const allProducts = [
     },
     {
         id:43,
-        image: thirtyeightt,
+        image: twentysix,
         category: "Ready-to-wear",
-        name:"Dress_Onyibo", 
+        name:"Dress_Cilia", 
         price: "NGN25,000"
     },
+ 
+
     {
         id:44,
-        image: forty,
+        image: nine,
         category: "Ready-to-wear",
-        name:"Dress_Nneoma", 
+        name:"Dress_Purity", 
         price: "NGN45,000"
     },
+   
     {
         id:45,
         image: fortyone,

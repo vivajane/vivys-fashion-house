@@ -79,7 +79,7 @@ img:hover{
     justify-content: space-between;
     background: linear-gradient(180deg, #bb832f, #e1ffea22 60%)
 }
-.background{
+/* .background{
     text-align: center;
     flex: 1;
     display: flex;
@@ -88,28 +88,89 @@ img:hover{
     margin-left: 150px;
     padding: 0;
     
-}
-.background img{
+} */
+/* .background img{
     width: 90%;
     object-fit: cover;
     border-radius: 150px;
-    /* margin: 20px; */
+    margin: 20px;
+} */
+
+.content{
+    padding-top: 90px;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 70px auto;
+}
+.right-image{
+    width: 100%;
+    margin-left: 70px;
+
+}
+.right-image img{
+    width: 500.68px;
+    height: 463.84px;
+    top: 268px;
+    left: 828px;
+    gap: 0px;
+    object-fit: cover;
+    border-radius: 250px;
+    /* opacity: 0px; */
+
+}
+.left-p p span{
+    font-family: Plus Jakarta Sans;
+    font-size: 64px;
+    font-style: italic;
+    font-weight: 200;
+    padding: 10px;
+    line-height: 80.64px;
+    letter-spacing: 3%;
+    text-align: left;
+    color: rgb(79, 69, 11);
+    font-family: "Jersey 25 Charted", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  
+}
+.left{
+    width: 100%;
+    padding-right: 15px;
+}
+.left-p p{
+    font-family: Plus Jakarta Sans;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80.64px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    
+        /* font-family: "Pacifico";
+        font-weight: 400;
+        font-style: normal; */
+        font-family: "Lobster", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      
+      
 }
 
-.level-up{
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    width:100%;
-    /* margin: auto; */
-    padding: 0;
-    flex: 1;
-    font-size: 30px;
-    gap: 20px;
-    line-height: 1.1;
-   
+.right-p{
+    
+    padding-top: 40px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: left;
+    width: 100%;
+    /* height: 90px; */
+    top: 605px;
+    left: 187px;
+    /* opacity: 0px; */
+    
 }
 
 

@@ -21,29 +21,20 @@ const Hero = () => {
   return (
     <div className="content-container">
       <div className="gen-container">
-        <div className="gen">
-          <div className="level-up">
-            <div className="level-up-sub">
-            <h4>Ready</h4>
-            <h4>to level up</h4>
-            <h4>your fashion game?</h4>
-            <div className="ready">
+        <div className="content">
+          <div className="left">
+            <div className="left-p">
               <p>
-                <span>Vivy's Fashion House </span>
+              
+                Ready to level up your fashion game
+                <span data-aos="fade-zoom-in" data-aos-offset="250" data-aos-easing="ease-in-sine" data-aos-duration="600" >Vivy's Fashion House</span>
+                <br />
+                is your sure bet
               </p>
-              <p>remains your sure bet</p>
-            </div>
-            </div>
-            <div className="latest">
-              <div>Latest Collection</div>
-              <div>
-                <BiDownArrowAlt />
-              </div>
             </div>
           </div>
-
-          <div className="background">
-            <img src={logotwe} alt="twe" />
+          <div className="right-image">
+            <img src={logotwe} alt="mask" data-aos="flip-left" data-aos-delay="100"  />
           </div>
         </div>
 

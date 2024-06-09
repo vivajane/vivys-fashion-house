@@ -10,9 +10,6 @@ const Context = (props) => {
     <ContextProvider.Provider value = {contextValue}>
         {props.children}
     </ContextProvider.Provider>
-
-
-    
   )
 }
 
