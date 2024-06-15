@@ -56,65 +56,73 @@ const allProducts = [
     {
         id:1,
         name:"Dress_Carse", 
-        price: "NGN35,000",
+        price: 35000,
         category: "Ready-to-wear",
         image: one,
+        amount: 35000
     },
     {
         id:2,
         name:"Dress_Kosi", 
-        price: "NGN50,000",
+        price: 50000,
         category: "Bespoke",
         image: two,
+        amount: 50000
     },
     {
         id:3,
         name:"Dress_Mma", 
         category: "Ready-to-wear",
-        price: "NGN35,000",
+        price: 35000,
         image: three,
+        amount: 35000
     },
     {
         id:4,
         name:"Dress_Oriaku", 
         category: "Bespoke",
-        price: "NGN70,000",
+        price: 70000,
         image: four,
+        amount: 70000
     },
     {
         id:5,
         image: five,
         category: "Bespoke",
         name:"Dress_Regal", 
-        price: "NGN45,000"
+        price: 45000,
+        amount: 45000
     },
     {
         id:6,
         image: six,
         category: "Ready-to-wear",
         name:"Dress_Koko", 
-        price: "NGN15,000"
+        price: 15000,
+        amount: 15000
     },
     {
         id:7,
         image: seven,
         category: "kid",
         name:"Dress_Ify", 
-        price: "NGN40,000"
+        price: 40000,
+        amount: 40000
     },
     {
         id:8,
         image: eight,
         category: "Bespoke",
         name:"Dress_Akwaeke", 
-        price: "NGN50,000"
+        price: 50000
     },
     {
         id:9,
         image: forty,
         category: "Ready-to-wear",
         name:"Dress_Nneoma", 
-        price: "NGN45,000"
+        price: 45000,
+        amount: 45000
     },
   
     {
@@ -122,7 +130,8 @@ const allProducts = [
         image: thirtyfour,
         category: "Ready-to-wear",
         name:"Georgeous", 
-        price: "NGN30,000"
+        price: 30000,
+        amount: 30000
     },
   
     // {
@@ -130,63 +139,70 @@ const allProducts = [
     //     image: eleven,
     //     category: "Bespoke",
     //     name:"Dress_Ugomma", 
-    //     price: "NGN45,000"
+    //     price: "NGN45000"
     // },
     {
         id:12,
         image: twelve,
         category: "Ready-to-wear",
         name:"Dress_Akwanwa", 
-        price: "NGN40,000"
+        price: 40000,
+        amount: 40000
     },
     {
         id:13,
         image: thirteen,
         category: "Ready-to-wear",
         name:"Dress_Chi", 
-        price: "NGN30,000"
+        price: 30000,
+        amount: 30000
     },
     {
         id:14,
         image: fourteen,
         category: "Ready-to-wear",
         name:"Dress_Linda", 
-        price: "NGN40,000"
+        price: 40000,
+        amount: 40000
     },
     {
         id:15,
         image: fifteen,
         category: "Ready-to-wear",
         name:"Dress_Gina", 
-        price: "NGN45,000"
+        price: 45000,
+        amount: 45000
     },
     {
         id:16,
         image: sixteen,
         category: "Ready-to-wear",
         name:"Dress_Ugo", 
-        price: "NGN35,000"
+        price: 35000,
+        amount: 35000
     },
     // {
     //     id:17,
     //     image: seventeen,
     //     category: "Bespoke",
     //     name:"Dress_Regal", 
-    //     price: "NGN45,000"
+    //     price: "NGN45000"
     // },
     {
         id:18,
         image: eighteen,
         category: "Ready-to-wear",
         name:"Dress_Gold", 
-        price: "NGN25,000"
+        price: 25000,
+        amount: 25000
     },
     {
         id:19,
         image: nineteen,
         category: "Ready-to-wear",
         name:"Dress_Diamond", 
-        price: "NGN25,000"
+        price: 25000,
+        amount: 25000
     },
    
     {
@@ -194,91 +210,105 @@ const allProducts = [
         image: twentytwo,
         category: "Ready-to-wear",
         name:"Dress_Love", 
-        price: "NGN25,000"
+        price: 25000,
+        amount: 25000
     },
     {
         id:23,
         image: twentythree,
         category: "Ready-to-wear",
         name:"Dress_Aliana", 
-        price: "NGN35,000"
+        price: 35000,
+        amount: 35000
     },
     {
         id:24,
         image: twentyfour,
         category: "Ready-to-wear",
         name:"Dress_Charity", 
-        price: "NGN35,000"
+        price: 35000,
+        amount: 35000
     },
     {
         id:25,
         image: twentyfive,
         category: "Ready-to-wear",
         name:"Dress_Favour", 
-        price: "NGN25,000"
+        price: 25000,
+        amount: 25000
     },
     {
         id:26,
         image: thirtyeightt,
         category: "Ready-to-wear",
         name:"Dress_Onyibo", 
-        price: "NGN25,000"
+        price: 25000,
+        amount: 25000
     },
     {
         id:27,
         image: twentyfivee,
         category: "Ready-to-wear",
         name:"Dress_Frances", 
-        price: "NGN15,000"
+        price: "NGN15000",
+        amount: 15000
     },
     {
         id:28,
         image: twentysixx,
         category: "Ready-to-wear",
         name:"Dress_Luck", 
-        price: "NGN25,000"
+        price: 25000,
+        amount: 25000
     },
     {
         id:29,
         image: twentynine,
         category: "Ready-to-wear",
         name:"Dress_Vivian", 
-        price: "NGN35,000"
+        price: 35000,
+        amount: 35000
     },
     {
         id:30,
         image: thirty,
         category: "Bespoke",
         name:"Dress_Akwa", 
-        price: "NGN45,000"
+        price: 45000,
+        amount: 45000
     },
     {
         id: 31,
         image: thirtyone,
         category: "Ready-to-wear",
         name:"Dress_Ginia", 
-        price: "NGN25,000"
+        price: 25000,
+        amount: 25000
+
     },
     {
         id:32,
         image: thirtytwo,
         category: "Ready-to-wear",
         name:"Dress_Cee", 
-        price: "NGN45,000"
+        price: 45000,
+        amount: 45000
     },
     {
         id:33,
         image: thirtythree,
         category: "Ready-to-wear",
         name:"Dress_Awesome", 
-        price: "NGN35,000"
+        price: 35000,
+        amount: 35000
     },
     {
         id:34,
         image: ten,
         category: "Ready-to-wear",
         name:"Dress_Royal", 
-        price: "NGN40,000"
+        price: 40000,
+        amount: 40000
     },
   
     {
@@ -286,63 +316,74 @@ const allProducts = [
         image: thirtyfive,
         category: "Ready-to-wear",
         name:"Dress_Victoria", 
-        price: "NGN35,000"
+        price: 35000,
+        amount: 35000,
+        
     },
     {
         id:36,
         image: thirtysix,
         category: "Ready-to-wear",
         name:"Dress_Mmachi", 
-        price: "NGN25,000"
+        price: 25000,
+        amount: 25000,
+        
     },
     {
         id:37,
         image: thirtyseven,
         category: "Ready-to-wear",
         name:"Dress_Confidence", 
-        price: "NGN45,000"
+        price: 45000,
+        amount: 45000
     },
     {
         id:38,
         image: thirtyeight,
         category: "Ready-to-wear",
         name:"Dress_Sweet", 
-        price: "NGN45,000"
+        price: 45000,
+        amount: 45000
     },
     {
         id:39,
         image: thirtynine,
         category: "Bespoke",
         name:"Dress_Asaodogwu", 
-        price: "NGN75,000"
+        price: 75000,
+        amount: 75000
     },
     {
         id:40,
         image: thirtyfourty,
         category: "Bespoke",
         name:"Dress_Mmirimaraugo", 
-        price: "NGN50,000"
+        price: 50000,
+        amount: 50000
     },
     {
         id:41,
         image: thirtyfivee,
         category: "Ready-to-wear",
         name:"Dress_Oyoyo", 
-        price: "NGN35,000"
+        price: 35000,
+        amount: 35000
     },
     {
         id:42,
         image: thirtysevenn,
         category: "kids",
         name:"Dress_Ego", 
-        price: "NGN25,000"
+        price: 25000,
+        amount: 25000
     },
     {
         id:43,
         image: twentysix,
         category: "Ready-to-wear",
         name:"Dress_Cilia", 
-        price: "NGN25,000"
+        price: 25000,
+        amount: 25000
     },
  
 
@@ -351,7 +392,8 @@ const allProducts = [
         image: nine,
         category: "Ready-to-wear",
         name:"Dress_Purity", 
-        price: "NGN45,000"
+        price: 45000,
+        amount: 45000
     },
    
     {
@@ -359,35 +401,40 @@ const allProducts = [
         image: fortyone,
         category: "kid",
         name:"Dress_Olaedo", 
-        price: "NGN35,000"
+        price: 35000,
+        amount: 35000
     },
     {
         id:46,
         image: fortytwo,
         category: "Ready-to-wear",
         name:"Ugogbe", 
-        price: "NGN35,000"
+        price: 35000,
+        amount: 35000
     },
     {
         id:47,
         image: fortythree,
         category: "kid",
         name:"Dress_Ugochi", 
-        price: "NGN35,000"
+        price: 35000,
+        amount: 35000
     },
     {
         id:46,
         image: fortyfour,
         category: "kid",
         name:"Dress_Sweet", 
-        price: "NGN35,000"
+        price: 35000,
+        amount: 35000
     },
     {
         id:47,
         image: fortyfive,
         category: "Ready-to-wear",
         name:"Dress_Angelic", 
-        price: "NGN35,000"
+        price: 35000,
+        amount: 35000
     },
     
 ]

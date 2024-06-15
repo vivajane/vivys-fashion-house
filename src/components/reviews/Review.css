@@ -26,8 +26,10 @@
     flex-direction: column;
     flex: 1;
     background-color: rgb(132, 131, 121);
-    width: 80%;
-    padding: 10px;
+    /* width: 80%; */
+    width: 100%;
+    padding: 10px 60px;
+    /* padding: 10px; */
 }
 .review-div h3{
     font-size: 30px;
@@ -125,4 +127,44 @@ form input, textarea{
     background-color: rgb(132, 131, 121);
     color: aliceblue;
     width: 50%;
+}
+@media screen and (max-width:780px){
+    .reviews{
+        /* display: block; */
+        width: 100%;
+       
+
+    }
+    .reviews{
+        margin-top: 30px;
+        
+    }
+    .review-div{
+        display: block;
+        width: 250px;
+        margin: 10px;
+        height: 450px;
+        font-size: smaller;
+    }
+    
+}
+@media screen and (max-width:480px){
+    .reviews{
+        /* display: block; */
+        width: 100%;
+       
+
+    }
+    .reviews{
+        margin-top: 30px;
+        
+    }
+    .review-div{
+        display: block;
+        width: 250px;
+        margin: 10px;
+        height: 450px;
+        font-size: smaller;
+    }
+    
 }

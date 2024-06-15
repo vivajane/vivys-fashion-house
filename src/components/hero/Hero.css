@@ -3,16 +3,18 @@
     margin: 0;
     padding: 0;
 }
-body{
+/* body{
     min-height: 100vh;
     display: grid;
     place-items: center;
-}
+} */
 .hero-container{
     height: 500px;
     position: relative;
-    width: 90%;
-    margin: auto;
+    /* width: 90%; */
+    width: 100%;
+    padding: 1px;
+  
     display: grid;
     place-items: center;
     overflow: hidden;
@@ -23,6 +25,7 @@ body{
     display: flex;
     width: calc(350px * 12);
     animation: scroll 40s linear infinite;
+  
 }
 .hero:hover{
     animation-play-state: paused;
@@ -35,6 +38,10 @@ body{
     padding: 15px;
     perspective: 100px;
 }
+.content{
+    margin: 40px auto;
+}
+
 img{
     width: 100%;
     transition: 1s;
@@ -103,7 +110,8 @@ img:hover{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin: 70px auto;
+    /* margin: 70px auto; */
+    width: 100%;
 }
 .right-image{
     width: 100%;
@@ -111,8 +119,8 @@ img:hover{
 
 }
 .right-image img{
-    width: 500.68px;
-    height: 463.84px;
+    width: 1005;
+    /* height: 463.84px; */
     top: 268px;
     left: 828px;
     gap: 0px;
@@ -138,7 +146,8 @@ img:hover{
 }
 .left{
     width: 100%;
-    padding-right: 15px;
+    padding-right: 37px;
+    padding-left: 0;
 }
 .left-p p{
     font-family: Plus Jakarta Sans;
@@ -207,7 +216,94 @@ img:hover{
 
 
 
+@media screen and (max-width: 480px){
+    .content{
+        font-size: smaller;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        
+    
+    }
+    .left p{
+        font-size: 25px;
+    }
+    .left p span{
+        font-size: 25px;
+    }
+    .right-image{
+        display: none;
+    }
+    
+    .right-image img{
+        width: 100%;
+        /* height: auto; */
+       
+    }
+    
+    .hero{
+        display: block;
+        width: 350px;
+        /* margin: 0 auto; */
+        /* animation: scroll 40s linear infinite; */
+        /* animation: scroll 40s linear infinite; */
+    }
+    .hero-container{
+        height: 500px;
+        position: relative;
+        /* width: 90%; */
+        padding: 1px;
+        /* margin: 0 auto; */
+        display: block;
+        place-items: center;
+        overflow: hidden;
+    }
+    .slide{
+        height: 400px;
+        width: 80%;
+        display: block;
+        align-items: center;
+        padding: 15px;
+        /* perspective: 100px; */
+    }
+    .slide img{
+        width: 400px;
+        display: block;
+        height: 550px;
+
+    }
+    .level-up-sub{
+        /* width: 100%; */
+        line-height: 0.3;
+    
+    }
+    .left-p p{
+        line-height: 1.2;
+    }
+    .left-p p span{
+        line-height: 1.6;
+    }
+    .gen{
+        margin-top: 20px;
+    }
+}
 @media screen and (max-width: 780px){
+    .right-image img{
+        width: 100%;
+        height: fit-content;
+    }
+    .right-image{
+        margin-top: 30px;
+    }
+    .left-p p{
+        font-size: 30px;
+        line-height: 35.5px;
+    }
+    .left-p p span{
+        font-size: 30px;
+        line-height: 35.5px;
+
+    }
 
     
 }

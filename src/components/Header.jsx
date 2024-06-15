@@ -39,6 +39,9 @@ const Header = () => {
   const clickShowMenu = () => {
     setShowMenu(!showMenu);
   };
+  const clickCloseMenu = () => {
+    setShowMenu(false);
+  };
   return (
     <div className="content-container">
     <div className="overall">
@@ -65,6 +68,7 @@ const Header = () => {
               setActive={setActive}
               active={active}
               onClickHandler={onClickHandler}
+              clickCloseMenu = {clickCloseMenu}
             />
           ))}
         </ul>
@@ -84,9 +88,9 @@ const Header = () => {
 };
 
 export default Header;
-const List = ({ list }) => {
+const List = ({ list , clickCloseMenu}) => {
   return (
-    <li key={list.id}>
+    <li key={list.id} onClick={clickCloseMenu}>
       <NavLink
         to={list.link}
         style={({ isActive }) => ({

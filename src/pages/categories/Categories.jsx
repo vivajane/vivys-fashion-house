@@ -8,6 +8,7 @@ import { RiArrowDropDownLine } from "react-icons/ri";
 
 const Categories = (props) => {
   const {allProducts} = useContext(ContextProvider);
+  
   return (
     <div className="category-container">
       <div className="show-more">
@@ -39,7 +40,7 @@ const Categories = (props) => {
             }
           })}
       </div>
-      <div className="explore-more">Explore More</div>
+      <div className="explore"><p className="explore-more">Explore More</p></div>
     </div>
   );
 };

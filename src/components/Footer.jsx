@@ -14,7 +14,7 @@ const Footer = () => {
     <div className="footer-container">
       <footer className="footer">
         <div className="socials">
-          <h3>Social Media</h3>
+          <h3>Socials</h3>
           <ul>
             <li>
               <a

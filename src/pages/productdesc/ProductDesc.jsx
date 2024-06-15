@@ -1,14 +1,21 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./ProductDesc.css";
 import { MdOutlineStar } from "react-icons/md";
 import { FaStar } from "react-icons/fa";
 import { FaRegStar } from "react-icons/fa";
+import { ContextProvider } from "../../components/context/Context";
+import { useNavigate } from "react-router-dom";
 
 
 // {/* <MdOutlineStar /> */}
 
 const ProductDesc = (props) => {
+  // const navigate = useNavigate();
+  const onClickButton = () => {
+      // navigate("/cart")
+  }
   const { product } = props;
+  const {addCart} = useContext(ContextProvider)
   console.log(product);
   return (
     <div className="product-display">
@@ -55,7 +62,7 @@ const ProductDesc = (props) => {
               <p className="size-p">16</p>
             </div>
             <div className="cart">
-              <button>Add to Cart</button>
+              <button onClick={()=>{addCart(product.id); onClickButton()}}>Add to Cart</button>
             </div>
             <div className="category"><h3>Category: <span>{product.category}</span> </h3></div>
           </div>
