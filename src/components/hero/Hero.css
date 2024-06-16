@@ -243,7 +243,12 @@ img:hover{
     
     .hero{
         display: block;
-        width: 350px;
+        /* width: 350px; */
+        display: block;
+        width: 250px;
+        margin: 10px;
+        height: 450px;
+        font-size: smaller;
         /* margin: 0 auto; */
         /* animation: scroll 40s linear infinite; */
         /* animation: scroll 40s linear infinite; */
@@ -251,20 +256,33 @@ img:hover{
     .hero-container{
         height: 500px;
         position: relative;
-        /* width: 90%; */
+        width: 100%;
         padding: 1px;
         /* margin: 0 auto; */
         display: block;
         place-items: center;
-        overflow: hidden;
+        /* overflow: hidden; */
     }
     .slide{
         height: 400px;
-        width: 80%;
+        width: 100%;
         display: block;
         align-items: center;
         padding: 15px;
         /* perspective: 100px; */
+    }
+    .reviews{
+        /* display: block; */
+        width: 100%;
+       
+
+    }
+    .reviews{
+        margin-top: 30px;
+        
+    }
+    .review-div{
+       
     }
     .slide img{
         width: 400px;

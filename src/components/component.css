@@ -26,13 +26,12 @@
     font-weight: 900;
     font-style: normal;
     z-index: 999;
-    
     overflow: hidden;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: auto;
-    max-width: 1300px;
+    /* max-width: 1300px; */
     padding: 0 4rem;
    
     

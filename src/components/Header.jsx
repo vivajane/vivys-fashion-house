@@ -45,7 +45,7 @@ const Header = () => {
     setShowMenu(false);
   };
   return (
-    <div className="content-container">
+    <div>
     <div className="overall">
       <div className="home-container">
         <div className="logo">
@@ -83,7 +83,7 @@ const Header = () => {
           <div className="no">{totalCartDisplay()}</div>
         </div>
       </div>
-      {/* <hr /> */}
+      
     </div>
     </div>
   );
