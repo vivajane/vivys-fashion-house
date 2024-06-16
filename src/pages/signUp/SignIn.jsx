@@ -8,7 +8,7 @@ const SignIn = () => {
       <div className="sign-up">
         <p>SIGN IN</p>
       </div>
-      <form className="form">
+      <form className="sign-up-form">
         <div className="fullname">
           <label htmlFor="email">
             FullName

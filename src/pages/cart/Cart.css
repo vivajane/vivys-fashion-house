@@ -3,13 +3,14 @@
     justify-content: space-between;
     align-items: flex-start;
     padding: 20px 60px;
+    gap: 60px;
 }
 .cart-con{
     margin-top: 70px;
     padding: 20px;
     text-align: center;
     background-color: rgba(244, 136, 20, 0.667);
-    width: 50%;
+    width: 100%;
     
 }
 .total-cart{
@@ -61,3 +62,18 @@
 .cart-button{
     width: 20px;
 }
+@media screen and (max-width:780px){
+    .cart-flex{
+        display: block;
+    }
+    
+}
+@media screen and (max-width:480px){
+    .heading-flex{
+        width: 100%;
+        /* font-size: smaller; */
+     
+    }
+  
+}
+

@@ -35,15 +35,25 @@ const Context = (props) => {
     let totalAmount = 0;
     for(const item in cartItem){
       if(cartItem[item] > 0){
-        let iteminfo = allProducts.find((product) =>product.id===Number(item))
-        totalAmount += iteminfo.price * cartItem[item]
+        let iteminfo = allProducts.find((product)=>product.id===Number(item))
+        totalAmount += iteminfo.price * cartItem[item];
       }
-      return totalAmount;
     }
-    console.log(totalAmount, "total amount")
+    return totalAmount;
   }
-  // console.log(totalCartAmount, "total cart amount")
-  const contextValue = {totalCartAmount,allProducts, cartItem, addCart, removeCart};
+
+  const totalCartDisplay = () => {
+    let totalCart = 0;
+    for(const item in cartItem){
+      if(cartItem[item] > 0){
+        totalCart += cartItem[item]
+      }
+    }
+    return totalCart
+  }
+
+  // console.log("total cart amount")
+  const contextValue = {totalCartDisplay,totalCartAmount,allProducts,cartItem,addCart,removeCart};
 
   return (
     <ContextProvider.Provider value={contextValue}>

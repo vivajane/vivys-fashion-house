@@ -86,3 +86,21 @@ div.cart{
 .category h3 span{
     font-weight: lighter;
 }
+
+@media screen and (max-width:780px){
+    .product-display{
+        display: block;
+    }
+    .img-flex{
+        width: 100%;
+    }
+    .img-big img{
+        width: 250px;
+        height: 400px;
+    }
+    .img-mini img{
+        width: 70px;
+        height: 100px;
+    }
+    
+}

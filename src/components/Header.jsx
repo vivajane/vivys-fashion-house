@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import Logo from "../images/ten.jpeg";
 import "./component.css";
 import Button from "../Assets/Button";
@@ -7,6 +7,7 @@ import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { FaTimes } from "react-icons/fa";
+import { ContextProvider } from "./context/Context";
 
 const lists = [
   {
@@ -29,6 +30,7 @@ const lists = [
 const Header = () => {
   const [active, setActive] = useState(null);
   const [showMenu, setShowMenu] = useState(false);
+  const {totalCartDisplay} = useContext(ContextProvider)
 
   const newShowmenu = showMenu;
 
@@ -73,12 +75,12 @@ const Header = () => {
           ))}
         </ul>
 
-        <div className={newShowmenu ? "login-btn active" :"login-btn"}>
+        <div className={newShowmenu ? "login-btn active" :"login-btn"} onClick={clickCloseMenu}>
           <NavLink to="login"><Button onClick={window.scrollTo(0,0)}  variant="primary">Login</Button></NavLink>
           <div>
            <NavLink to="cart"> <FaShoppingCart /></NavLink>
           </div>
-          <div className="no">0</div>
+          <div className="no">{totalCartDisplay()}</div>
         </div>
       </div>
       {/* <hr /> */}

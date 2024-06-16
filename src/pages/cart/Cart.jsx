@@ -5,7 +5,7 @@ import "../../Assets/allProducts";
 import { ContextProvider } from "../../components/context/Context";
 
 const Cart = () => {
-  const { totalCartAmount,allProducts, cartItem, removeCart } = useContext(ContextProvider);
+  const {totalCartAmount,allProducts,cartItem,removeCart} = useContext(ContextProvider);
 
   return (
     <div className="cart-flex">
@@ -53,7 +53,7 @@ const Cart = () => {
         </div>
         <div className="cart-prop-flex">
           <p>Subtotal</p>
-        <p>{totalCartAmount()}</p>
+        <p>NGN{totalCartAmount()}</p>
         </div>
         <hr />
         <div className="cart-prop-flex">
@@ -63,7 +63,7 @@ const Cart = () => {
         <hr />
         <div className="cart-prop-flex">
           <p>Total</p>
-          <p>{totalCartAmount()}</p>
+          <p>NGN{totalCartAmount()}</p>
         </div>
         <hr />
         <div className="checkout"><button>PROCEED TO CHECKOUT</button></div>

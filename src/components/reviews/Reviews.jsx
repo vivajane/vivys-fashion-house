@@ -89,6 +89,7 @@ const Form = ({setAddNewReview, addNewReview, setShowForm}) => {
     text,
   }
   console.log(newReview)
+  window.alert("Review has been added!")
 
   setAddNewReview((addNewReview) => [newReview, ...addNewReview])
   setShowForm(false)
@@ -102,7 +103,7 @@ const Form = ({setAddNewReview, addNewReview, setShowForm}) => {
   };
 }
   return (
-    <form onSubmit={onSubmitHandler}>
+    <form className="review-form" onSubmit={onSubmitHandler}>
       <div>
         <label htmlFor="name">
           <input

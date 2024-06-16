@@ -115,14 +115,14 @@
     top: 0;
     transform: rotateZ(180deg);
 }
-form{
-    width: 50%;
+.review-form{
+    width: 100%;
     margin: 10px auto;
     text-align: center;
     /* background-color: rgb(74, 56, 56); */
 }
 form input, textarea{
-    padding: 10px;
+    padding: 13px;
     margin-top: 15px;
     background-color: rgb(132, 131, 121);
     color: aliceblue;

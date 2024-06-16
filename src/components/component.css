@@ -140,9 +140,9 @@ footer > div > ul > li{
         top: 52px;
         position: fixed;
         text-align: center;
-        background-color: rgba(243, 233, 233, 0.93);
+        background-color: rgba(185, 175, 175, 0.93);
         height: 90vh;
-        z-index: 999999;
+        /* z-index: ; */
         transition: .3s;
         margin-top: 30px;
        

@@ -1,26 +1,36 @@
 .div-form{
-    width:70%;
+    width: 100%;
     padding-top: 100px;
-    margin: 70px auto;
+    margin-top: 70px;
+    background-color: black;
+   
+    color: white;
     /* height: 500px; */
 }
-.form input{
-    width: 90%;
+.sign-up-form input{
+    width: 100%;
     border: transparent;
+     background-color: rgb(60, 59, 59);
     border: 1px solid black;
-    background-color: transparent;
+    /* background-color: transparent; */
     padding: 5px auto;
+    border-radius: 15px;
     /* background-color: black; */
 }
 .sign-up{
     text-align: center;
     margin: 10px auto;
+    
 }
-.form{
-    background-color: rgb(237, 212, 178);
+
+.sign-up-form{
+    width: 50%;
+    /* background-color: rgb(237, 212, 178); */
+    margin: 0 auto;
 }
+
 .fullname, .password, .btn{
-    padding: 20px 0;
+    padding-top: 20px;
 }
 .btn{
     margin: 20px auto;
@@ -32,9 +42,13 @@ button[variant= "sign"]{
     border-radius: 10px;
     background-color: rgb(216, 183, 140);
     color: black;
+    width: 100%;
 
 }
 button[variant= "sign"]:hover{
     background-color: black;
     color: white;
+}
+.already{
+    text-align: center;
 }
