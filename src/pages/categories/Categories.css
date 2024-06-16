@@ -16,7 +16,8 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 10px;
-    width: 90%;
+    width: 100%;
+    padding: 20px 64px;
 }
 
 .image{
@@ -52,3 +53,10 @@
     background-color: black;
    
 }
+@media screen and (max-width:780px){
+    .category-product{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}
+
