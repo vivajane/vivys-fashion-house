@@ -1,0 +1,58 @@
+.div-form {
+  width: 100%;
+  padding-top: 100px;
+  margin-top: 70px;
+  background-color: black;
+
+  color: white;
+  /* height: 500px; */
+}
+.sign-up-form input {
+  width: 100%;
+  border: transparent;
+  background-color: rgb(60, 59, 59);
+  border: 1px solid black;
+  /* background-color: transparent; */
+  padding: 5px auto;
+  border-radius: 15px;
+  /* background-color: black; */
+}
+.sign-up {
+  text-align: center;
+  margin: 10px auto;
+}
+
+.sign-up-form {
+  width: 50%;
+  /* background-color: rgb(237, 212, 178); */
+  margin: 0 auto;
+}
+
+.fullname,
+.password,
+.btn {
+  padding-top: 20px;
+}
+.btn {
+  margin: 20px auto;
+}
+button[variant="sign"] {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 35px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: #ffff;
+  color: black;
+  width: 100%;
+}
+button[variant="sign"]:hover {
+  background-color: black;
+  color: white;
+  border: #fff 1px solid;
+}
+.already {
+  text-align: center;
+}
