@@ -30,7 +30,7 @@ const lists = [
 const Header = () => {
   const [active, setActive] = useState(null);
   const [showMenu, setShowMenu] = useState(false);
-  const {totalCartDisplay} = useContext(ContextProvider)
+  const { totalCartDisplay } = useContext(ContextProvider);
 
   const newShowmenu = showMenu;
 
@@ -46,51 +46,59 @@ const Header = () => {
   };
   return (
     <div>
-    <div className="overall">
-      <div className="home-container">
-        <div className="logo">
-          <a href="/">
-            <img src={Logo} alt="logo" />
-          </a>
-          {/* <p>Vivy's Fashion House</p> */}
-        </div>
-        <div className="menu" onClick={clickShowMenu}>
-          {showMenu ? (
-            <FaTimes size="30px" />
-          ) : (
-            <GiHamburgerMenu size="30px" className="menu-main" />
-          )}
-        </div>
-
-        <ul className={showMenu ? "list-item active" : "list-item"}>
-          {lists.map((list) => (
-            <List
-            key={list.id}
-              list={list}
-              setActive={setActive}
-              active={active}
-              onClickHandler={onClickHandler}
-              clickCloseMenu = {clickCloseMenu}
-            />
-          ))}
-        </ul>
-
-        <div className={newShowmenu ? "login-btn active" :"login-btn"} onClick={clickCloseMenu}>
-          <NavLink to="login"><Button onClick={window.scrollTo(0,0)}  variant="primary">Login</Button></NavLink>
-          <div>
-           <NavLink to="cart"> <FaShoppingCart /></NavLink>
+      <div className="overall">
+        <div className="home-container">
+          <div className="logo">
+            <a href="/">
+              <img src={Logo} alt="logo" />
+            </a>
+            {/* <p>Vivy's Fashion House</p> */}
           </div>
-          <div className="no">{totalCartDisplay()}</div>
+          <div className="menu" onClick={clickShowMenu}>
+            {showMenu ? (
+              <FaTimes size="30px" />
+            ) : (
+              <GiHamburgerMenu size="30px" className="menu-main" />
+            )}
+          </div>
+
+          <ul className={showMenu ? "list-item active" : "list-item"}>
+            {lists.map((list) => (
+              <List
+                key={list.id}
+                list={list}
+                setActive={setActive}
+                active={active}
+                onClickHandler={onClickHandler}
+                clickCloseMenu={clickCloseMenu}
+              />
+            ))}
+          </ul>
+
+          <div
+            className={newShowmenu ? "login-btn active" : "login-btn"}
+            onClick={clickCloseMenu}
+          >
+            <NavLink to="login">
+              <Button onClick={window.scrollTo(0, 0)} variant="primary">
+                Login
+              </Button>
+            </NavLink>
+            <div>
+              <NavLink to="cart">
+                <FaShoppingCart />
+              </NavLink>
+            </div>
+            <div className="no">{totalCartDisplay()}</div>
+          </div>
         </div>
       </div>
-      
-    </div>
     </div>
   );
 };
 
 export default Header;
-const List = ({ list , clickCloseMenu}) => {
+const List = ({ list, clickCloseMenu }) => {
   return (
     <li key={list.id} onClick={clickCloseMenu}>
       <NavLink
