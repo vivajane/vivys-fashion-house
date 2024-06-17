@@ -93,7 +93,7 @@ button:active{
     
 }
 .footer-container{
-    /* width: 100%; */
+    width: 100%;
     margin: 0 auto;
     
 }
@@ -110,7 +110,7 @@ footer a:hover{
 
 footer > div > ul{
     padding: 20px 0;
-    width: 100%;
+    /* width: 100%; */
     
 }
 footer > div > h3{
@@ -130,7 +130,7 @@ footer > div > ul > li{
      
     }
     .list-item{
-        width: 100%;
+        
         flex-direction: column;
         left: -200%;
         top: 52px;
@@ -138,7 +138,7 @@ footer > div > ul > li{
         text-align: center;
         background-color: rgba(185, 175, 175, 0.93);
         height: 90vh;
-        /* z-index: ; */
+        
         transition: .3s;
         margin-top: 30px;
        
@@ -181,86 +181,30 @@ footer > div > ul > li{
         text-align: center;
         margin: auto;
     }
-    .footer-container{
-        margin-top: 50px;
-        
-    }
     .footer{
-        
-        /* font-size: smaller; */
+        text-align: left;
         width: 100%;
-        text-align: center;
-        margin: 0 auto;
-        
+        padding: 0;
+        margin: 0;
     }
-    .socials{
-        margin: 0 auto;
+    .footer h3{
+        font-size: 18px;
     }
-    .socials h3{
-        font-size: 25px;
+    ul{
         width: 100%;
-    }
-    .socials{
-        /* font-size: 25px; */
-    }
-    .socials a{
-        font-size: 16px;
-    }
-    .allproducts h3{
-        font-size: 25px;
-        
-    }
-    .company h3{
-        font-size: 25px;
-    }
-    .socials>ul>li{
-        font-size: 13px;
-    }
-    .footer > div > ul{
-        width: 100%;
-        padding: 2px auto;
-    }
+    }  
+ 
 }
-@media screen and (max-width:480px){
-    .footer-container{
-        margin-top: 50px;
-        width: 100%;
-        
-    }
-    .footer > .socials{
-    
-        width: 100%;
-    }
+
+@media screen and (max-width:480px) {
     .footer{
-        
-        font-size: smaller;
-        width: 100%;
-        text-align: center;
-        margin: 10px auto;
-        
-    }
-    .socials h3{
-        font-size: 15px;
-        
-        
-    }
-    .socials{
-        font-size: 14px;
-    }
-    .allproducts h3{
-        font-size: 14px;
-        
-    }
-    .company h3{
-        font-size: 14px;
-    }
-    .socials>ul>li a{
-        font-size: 14px;
-       
-        
-    }
-    .footer > div > ul{
-        width: 100%;
+        font-size: small;
     }
     
-}
+ }
+    
+ 
+
+
+
+ 

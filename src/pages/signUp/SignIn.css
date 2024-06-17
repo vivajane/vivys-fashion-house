@@ -29,7 +29,7 @@
     margin: 0 auto;
 }
 
-.fullname, .password, .btn{
+.fullname, .password, .btn, .email{
     padding-top: 20px;
 }
 .btn{
