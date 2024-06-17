@@ -129,7 +129,7 @@ const Form = ({setAddNewReview, addNewReview, setShowForm}) => {
       </div>
 
       <div>
-        <button type="submit" className="review-btn" >
+        <button type="submit" className="review-btn" onSubmit={onSubmitHandler} >
           SUBMIT
         </button>
       </div>
