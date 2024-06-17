@@ -74,12 +74,6 @@ const Form = ({setAddNewReview, addNewReview, setShowForm}) => {
   const [name, setName] = useState("");
   const [text, setText] = useState("");
   const num = text.length;
-  // const onChangeHandler = (e) => {
-  //   setName()e.target.value();
-  // };
-  // const onChangeHandlertwo = (e) => {
-  //   e.target.value();
-  // };
   const onSubmitHandler = (e) => {
     e.preventDefault();
   if(name && text && num <= 20){
@@ -129,7 +123,7 @@ const Form = ({setAddNewReview, addNewReview, setShowForm}) => {
       </div>
 
       <div>
-        <button type="submit" className="review-btn" onSubmit={onSubmitHandler} >
+        <button type="submit" className="review-btn"  >
           SUBMIT
         </button>
       </div>

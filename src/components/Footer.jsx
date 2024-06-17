@@ -26,7 +26,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="https://www.instagram.com/vivysfashionhouse/"
+                href="https://www.facebook.com/VivajaneTaeli"
                 target="blank"
               >
                 Facebook
