@@ -26,7 +26,7 @@ const Hero = () => {
             <div className="left-p">
               <p>
               
-                Ready to level up your fashion game
+                Ready to level up your fashion game?
                 <span data-aos="fade-zoom-in" data-aos-offset="250" data-aos-easing="ease-in-sine" data-aos-duration="600" >Vivy's Fashion House</span>
                 <br />
                 is your sure bet
