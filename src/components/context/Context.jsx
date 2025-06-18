@@ -18,11 +18,12 @@ const Context = (props) => {
   const addCart = (itemId) => {
     setCartItem((prev) => ({
       ...prev,
-      [itemId]:prev[itemId]+1,
+      [itemId]: prev[itemId] + 1,
     }));
-    
-    alert("Added to cart, view cart")
+
+    alert("Added to cart, view cart");
     console.log(cartItem);
+    return cartItem;
   };
   const removeCart = (itemId) => {
     setCartItem((prev) => ({
@@ -33,27 +34,36 @@ const Context = (props) => {
 
   const totalCartAmount = () => {
     let totalAmount = 0;
-    for(const item in cartItem){
-      if(cartItem[item] > 0){
-        let iteminfo = allProducts.find((product)=>product.id===Number(item))
+    for (const item in cartItem) {
+      if (cartItem[item] > 0) {
+        let iteminfo = allProducts.find(
+          (product) => product.id === Number(item)
+        );
         totalAmount += iteminfo.price * cartItem[item];
       }
     }
     return totalAmount;
-  }
+  };
 
   const totalCartDisplay = () => {
     let totalCart = 0;
-    for(const item in cartItem){
-      if(cartItem[item] > 0){
-        totalCart += cartItem[item]
+    for (const item in cartItem) {
+      if (cartItem[item] > 0) {
+        totalCart += cartItem[item];
       }
     }
-    return totalCart
-  }
+    return totalCart;
+  };
 
   // console.log("total cart amount")
-  const contextValue = {totalCartDisplay,totalCartAmount,allProducts,cartItem,addCart,removeCart};
+  const contextValue = {
+    totalCartDisplay,
+    totalCartAmount,
+    allProducts,
+    cartItem,
+    addCart,
+    removeCart,
+  };
 
   return (
     <ContextProvider.Provider value={contextValue}>

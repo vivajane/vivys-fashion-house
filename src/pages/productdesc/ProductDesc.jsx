@@ -10,9 +10,12 @@ import { useNavigate } from "react-router-dom";
 // {/* <MdOutlineStar /> */}
 
 const ProductDesc = (props) => {
-  // const navigate = useNavigate();
-  const onClickButton = () => {
-      // navigate("/cart")
+  const navigate = useNavigate();
+  const onClickButton = async() => {
+    const res = await addCart(product.id)
+      if(res){
+        navigate('/cart')
+      }
   }
   const { product } = props;
   const {addCart} = useContext(ContextProvider)
@@ -54,15 +57,9 @@ const ProductDesc = (props) => {
             </p>
           </div>
           <div className="select-size">
-            <h2>Select size(UK)</h2>
-            <div className="size">
-              <p className="size-p">10</p>
-              <p className="size-p">12</p>
-              <p className="size-p">14</p>
-              <p className="size-p">16</p>
-            </div>
+            
             <div className="cart">
-              <button onClick={()=>{addCart(product.id); onClickButton()}}>Add to Cart</button>
+              <button onClick={onClickButton}>Add to Cart</button>
             </div>
             <div className="category"><h3>Category: <span>{product.category}</span> </h3></div>
           </div>

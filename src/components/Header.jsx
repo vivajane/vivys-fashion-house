@@ -45,7 +45,7 @@ const Header = () => {
     setShowMenu(false);
   };
   return (
-    <div>
+    <div className={`header ${showMenu && "header showmenu"}`}>
     <div className="overall">
       <div className="home-container">
         <div className="logo">
